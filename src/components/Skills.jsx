@@ -24,7 +24,6 @@ const Skills = () => {
         { name: 'Python', icon: '🐍', level: 85, color: 'from-green-500 to-green-700' },
         { name: 'Java', icon: '☕', level: 80, color: 'from-gray-600 to-gray-800' },
         { name: 'C', icon: '©️', level: 30, color: 'from-blue-500 to-blue-700' },
-        { name: 'C++', icon: '➕', level: 40, color: 'from-blue-500 to-blue-700' },
       ],
     },
     {

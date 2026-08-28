@@ -11,12 +11,12 @@ import Footer from './components/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
-  //   // Simulate loading
-  //   setTimeout(() => setIsLoading(false), 1500);
-  // }, []);
+  useEffect(() => {
+    // Simulate loading
+    setTimeout(() => setIsLoading(false), 1500);
+  }, []);
 
   useEffect(() => {
     if (darkMode) {
